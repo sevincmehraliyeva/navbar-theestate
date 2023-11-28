@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+nav {
+  width: 70%;
+  margin: auto;
+  background-color: #94908C;
+}
+nav a {
+  text-align: center;
+}
+nav p {
+  color: white;
+}
+
+.collapse {
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: #FD784F;
+  border: #FD784F;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+}
